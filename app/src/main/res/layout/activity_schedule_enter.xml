@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="ScheduleEnter"
+            type="com.rvs.studentsmoscow.data.ScheduleEnter"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textUniversity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="103dp"
+            android:text="Выбери свой ВУЗ:"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="194dp"
+            android:text="Выбери свою группу:"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textGroup"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@{ScheduleEnter.groupNumber}"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/buttonAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="160dp"
+            android:text="Расписание" />
+
+        <Spinner
+            android:id="@+id/spinnerOfUniversity"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textUniversity"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</layout>

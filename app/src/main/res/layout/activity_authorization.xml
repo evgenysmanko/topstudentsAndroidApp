@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="Authorization"
+            type="com.rvs.studentsmoscow.data.Authorization" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/textViewLogin"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-180dp"
+            android:text="Логин"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editLogin"
+            android:layout_width="210dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@{Authorization.login}" />
+
+        <TextView
+            android:id="@+id/textViewPass"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="226dp"
+            android:text="Пароль"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editPass"
+            android:layout_width="210dp"
+            android:layout_height="36dp"
+            android:layout_below="@+id/textViewPass"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@{Authorization.password}" />
+
+        <Button
+            android:id="@+id/buttonAuthorization"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="175dp"
+            android:text="Enter" />
+
+        <ImageButton
+            android:id="@+id/buttonVKAuthorization"
+            android:layout_width="110dp"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="56dp"
+            app:srcCompat="@android:color/holo_blue_dark" />
+
+
+    </RelativeLayout>
+
+</layout>
