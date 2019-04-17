@@ -12,9 +12,7 @@ public class AuthorizationActivity extends BaseObservable {
     public void enterTheLogin () {
     }
 
-    /*
-    * Метод, через который будет введён пароль пользователя.
-    * */
+   
     public void enterThePass () {
     }
 
