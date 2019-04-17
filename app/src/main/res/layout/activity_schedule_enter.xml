@@ -38,7 +38,6 @@
             android:layout_centerHorizontal="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@{ScheduleEnter.groupNumber}"
             android:textAlignment="center" />
 
         <Button

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "636043718291",
+    "firebase_url": "https://students-moscow.firebaseio.com",
+    "project_id": "students-moscow",
+    "storage_bucket": "students-moscow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636043718291:android:595cb8ed18cf7cde",
+        "android_client_info": {
+          "package_name": "com.rvs.studentsmoscow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636043718291-padl06roqtnosv8ca845r6gpdrief9bj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rvs.studentsmoscow",
+            "certificate_hash": "80fd5080917477f417c43b96715c4d6f20e6a475"
+          }
+        },
+        {
+          "client_id": "636043718291-4lftnq22grj73mr4k5cr1bhckc6f7n4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUgK8qtVxdyw0lSdEKsJgkhXQWOrD_Qsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636043718291-4lftnq22grj73mr4k5cr1bhckc6f7n4m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "636043718291-lflsku3nk1e8ogq0m6qos8mbuuirgsj5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vignatiev.moscowStudents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636043718291:android:a36c33fdb6f6c558",
+        "android_client_info": {
+          "package_name": "manko.evgeny.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636043718291-scrf9qtld89qvck0u4oqhl87ars2kgit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "manko.evgeny.myapplication",
+            "certificate_hash": "84175fdeb038c01b381b62e18381d178f8ae32c3"
+          }
+        },
+        {
+          "client_id": "636043718291-4lftnq22grj73mr4k5cr1bhckc6f7n4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUgK8qtVxdyw0lSdEKsJgkhXQWOrD_Qsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636043718291-4lftnq22grj73mr4k5cr1bhckc6f7n4m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "636043718291-lflsku3nk1e8ogq0m6qos8mbuuirgsj5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vignatiev.moscowStudents"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

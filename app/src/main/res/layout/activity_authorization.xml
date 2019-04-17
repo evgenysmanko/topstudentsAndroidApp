@@ -36,7 +36,7 @@
             android:layout_marginTop="180dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@{Authorization.login}" />
+             />
 
         <TextView
             android:id="@+id/textViewPass"
@@ -56,7 +56,7 @@
             android:layout_centerHorizontal="true"
             android:ems="10"
             android:inputType="textPassword"
-            android:text="@{Authorization.password}" />
+            />
 
         <Button
             android:id="@+id/buttonAuthorization"
