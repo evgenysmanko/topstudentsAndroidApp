@@ -1,9 +1,9 @@
 package com.rvs.studentsmoscow.data;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
-import android.databinding.ObservableField;
-import android.databinding.ObservableInt;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
+import androidx.databinding.ObservableField;
+import androidx.databinding.ObservableInt;
 
 /*
 * Класс, является типом расписания или как этя фигня называлась. Создай свой тип данных.
