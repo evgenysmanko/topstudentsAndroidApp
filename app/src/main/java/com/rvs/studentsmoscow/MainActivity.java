@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        /* VK signing */
         new VKController().login(this,this);
 
         setContentView(R.layout.activity_main);
