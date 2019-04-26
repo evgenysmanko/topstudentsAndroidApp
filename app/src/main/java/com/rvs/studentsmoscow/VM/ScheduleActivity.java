@@ -1,6 +1,6 @@
 package com.rvs.studentsmoscow.VM;
 
-import android.databinding.BaseObservable;
+import androidx.databinding.BaseObservable;
 
 public class ScheduleActivity extends BaseObservable {
 

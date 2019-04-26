@@ -1,6 +1,6 @@
 package com.rvs.studentsmoscow.VM;
 
-import android.databinding.BaseObservable;
+import androidx.databinding.BaseObservable;
 
 /*
 * Класс, из которого будут забираться новости и расписание из следующих методов.
