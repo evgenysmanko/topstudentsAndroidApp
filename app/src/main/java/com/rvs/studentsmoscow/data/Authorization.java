@@ -4,10 +4,10 @@ import androidx.databinding.BaseObservable;
 import androidx.databinding.Bindable;
 import androidx.databinding.ObservableField;
 
-public class Authorization extends BaseObservable{
+public class Authorization extends BaseObservable {
 
     @Bindable
-    private final ObservableField<String> login = new ObservableField<> ();
+    private final ObservableField<String> login = new ObservableField<>();
     @Bindable
     private final ObservableField<String> password = new ObservableField<> ();
 

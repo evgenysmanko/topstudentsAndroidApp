@@ -1,25 +1,15 @@
 package com.rvs.studentsmoscow;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.databinding.*;
 
-import com.rvs.studentsmoscow.Controller.VKController;
-import com.vk.api.sdk.VK;
-import com.vk.api.sdk.auth.VKAccessToken;
-import com.vk.api.sdk.auth.VKAuthCallback;
-import com.vk.api.sdk.auth.VKScope;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
-import org.jetbrains.annotations.NotNull;
-
-import java.util.ArrayList;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -50,9 +40,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /* VK signing */
-        new VKController().login(this,this);
-
         setContentView(R.layout.activity_main);
 
         mTextMessage = (TextView) findViewById(R.id.message);
@@ -67,15 +54,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-    @Override
-    public void onActivityResult(int reqCode, int resCode, Intent intent){
-        if(!new VKController().onActivityResult(reqCode,resCode,intent))
-            super.onActivityResult(reqCode,resCode,intent);
-    }
-
-
-
 
     public void openActivityUniversity() {
 

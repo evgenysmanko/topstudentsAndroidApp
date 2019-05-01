@@ -1,4 +1,4 @@
-package com.rvs.studentsmoscow.VM;
+package com.rvs.studentsmoscow.vm;
 
 import androidx.databinding.BaseObservable;
 

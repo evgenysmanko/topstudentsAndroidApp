@@ -1,20 +1,20 @@
 package com.rvs.studentsmoscow.data;
 
+/*
+ * Класс, является типом расписания или как этя фигня называлась. Создай свой тип данных.
+ * */
+
 import androidx.databinding.BaseObservable;
 import androidx.databinding.Bindable;
 import androidx.databinding.ObservableField;
 import androidx.databinding.ObservableInt;
-
-/*
-* Класс, является типом расписания или как этя фигня называлась. Создай свой тип данных.
-* */
 
 public class ScheduleShow extends BaseObservable {
 
     @Bindable
     private final ObservableField<String> nameOfItem = new ObservableField<> ();
     @Bindable
-    private final ObservableField<String> namePerson = new ObservableField<> ();
+    private final ObservableField<String> namePerson = new ObservableField<>();
     @Bindable
     private final ObservableInt timeStart = new ObservableInt();
     @Bindable

@@ -3,20 +3,15 @@ package com.rvs.studentsmoscow.Controller;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 
-import com.rvs.studentsmoscow.MainActivity;
+import androidx.annotation.Nullable;
+
+import com.google.firebase.database.annotations.NotNull;
 import com.vk.api.sdk.VK;
-import com.vk.api.sdk.VKApiCallback;
 import com.vk.api.sdk.auth.VKAccessToken;
 import com.vk.api.sdk.auth.VKAuthCallback;
 import com.vk.api.sdk.auth.VKScope;
 
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
-
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class VKController {
@@ -36,7 +31,7 @@ public class VKController {
          * @Param (String stat) open parameters for file;
          * @Param (String token) define user token if it necessary for current work.
          */
-        IOThread(@NotNull String stat,@Nullable String token){
+        IOThread(@NotNull String stat, @Nullable String token) {
             this.JOB_ID = stat.equalsIgnoreCase("r")? 1 : stat.equalsIgnoreCase("w")? 2 : 0;
             this.TOKEN = token;
         }

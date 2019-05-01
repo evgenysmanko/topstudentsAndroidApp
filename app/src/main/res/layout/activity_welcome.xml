@@ -3,7 +3,7 @@
     <data>
         <variable
             name="WelcomePage"
-            type="com.rvs.studentsmoscow.VM.MainPageActivity"/>
+            type="com.rvs.studentsmoscow.vm.MainPageActivity" />
     </data>
 
     <RelativeLayout
