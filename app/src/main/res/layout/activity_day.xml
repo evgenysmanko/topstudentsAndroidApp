@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_1class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 пара" />
+
+        <Button
+            android:id="@+id/btn_2class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 пара" />
+
+        <Button
+            android:id="@+id/btn_3class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 пара" />
+
+        <Button
+            android:id="@+id/btn_4class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 пара" />
+
+        <Button
+            android:id="@+id/btn_5class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 пара" />
+
+        <Button
+            android:id="@+id/btn_6class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6 пара" />
+
+        <Button
+            android:id="@+id/btn_7class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7 пара" />
+
+        <Button
+            android:id="@+id/btn_8class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8 пара ( вы серьезно? )" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_class"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rvs.studentsmoscow.ClassActivity">
+
+
+    <TextView
+        android:id="@+id/textView_classNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView_day_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="TextView"
+        android:textSize="32sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/class_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView_day_class"></android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>
